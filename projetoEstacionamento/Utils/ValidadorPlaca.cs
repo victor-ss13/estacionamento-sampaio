@@ -45,15 +45,14 @@ namespace projetoEstacionamento.Utils
                 placaFormatada = placa.Insert(3, "-");
                 return true;
             }
-            else if (padraoMercosul.IsMatch(placa))
+            
+            if (padraoMercosul.IsMatch(placa))
             {
                 placaFormatada = placa;
                 return true;
             }
-            else
-            {
-                return false;
-            }
+
+            return false;
         }
     }
 }
