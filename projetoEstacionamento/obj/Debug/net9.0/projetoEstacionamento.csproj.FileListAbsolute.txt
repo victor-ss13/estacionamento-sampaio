@@ -1,0 +1,13 @@
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.sourcelink.json
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\bin\Debug\net9.0\projetoEstacionamento.exe
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\bin\Debug\net9.0\projetoEstacionamento.deps.json
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\bin\Debug\net9.0\projetoEstacionamento.runtimeconfig.json
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\bin\Debug\net9.0\projetoEstacionamento.dll
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\bin\Debug\net9.0\projetoEstacionamento.pdb
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.dll
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\refint\projetoEstacionamento.dll
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.pdb
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\projetoEstacionamento.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Documentos\GitHub\bootcamp-xp\projetos\projetoEstacionamento\obj\Debug\net9.0\ref\projetoEstacionamento.dll
