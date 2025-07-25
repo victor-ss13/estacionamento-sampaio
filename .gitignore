@@ -1,0 +1,22 @@
+# Ignorar arquivos de solução
+# *.sln
+
+# Ignorar arquivos de build do C#
+bin/
+obj/
+
+# Ignorar arquivos temporários e de cache
+*.tmp
+*.log
+*.cache
+
+# Ignorar configurações locais de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar pastas de dependências (se usar Node, por exemplo)
+node_modules/
