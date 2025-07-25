@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using projetoEstacionamento.Models; // Importa o modelo 'Veiculo', pois vamos instanciar um objeto do tipo 'Veiculo'
 using projetoEstacionamento.Data;   // Importa o "banco de dados" em memória, onde salvaremos o novo veículo
+using projetoEstacionamento.Utils; // Importa a classe 'ValidadorPlaca', que contém a lógica de validação das placas dos veículos
 
 // Será a camada de serviço do nosso projeto, orquestrando as regras de negócio para as operações do estacionamento: cadastrar, remover, listar, etc.
 
@@ -21,12 +22,13 @@ namespace projetoEstacionamento.Services
             Console.Write("Digite a placa do veículo: ");
 
             // Lê a placa do veículo, usando '?.ToUpper()' para transformar em maiúsculo / O operador '?' evita erro caso 'ReadLine()' retorne null
-            string? placa = Console.ReadLine()?.ToUpper(); // 'string?' permite que a variável seja nula, evitando erros caso o usuário não digite nada
+            // 'string?' permite que a variável seja nula, evitando erros caso o usuário não digite nada
+            string? placaEntrada = Console.ReadLine()?.ToUpper(); 
 
-            // Valida se a entrada é nula, vazia ou só espaços / Se for, exibe erro e sai da função com return
-            if (string.IsNullOrWhiteSpace(placa))
+            // Verifica se a placa é válida, chamando o método 'PlacaValida' da classe 'ValidadorPlaca'
+            if (!ValidadorPlaca.PlacaValida(placaEntrada, out string placaFormatada))
             {
-                Console.WriteLine("Placa inválida. Tente novamente.");
+                Console.WriteLine("Placa inválida. Por favor, tente novamente.");
                 return;
             }
 
@@ -34,7 +36,7 @@ namespace projetoEstacionamento.Services
             var veiculo = new Veiculo
             {
                 // Instancia um novo veículo com a placa fornecida
-                Placa = placa, 
+                Placa = placaFormatada, 
                 // Registra a hora de entrada com 'DateTime.Now'
                 HoraEntrada = DateTime.Now
             };
