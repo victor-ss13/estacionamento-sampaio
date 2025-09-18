@@ -53,13 +53,13 @@ O projeto é uma prática para exercitar lógica de programação, manipulação
 Uma visão geral de como o projeto está organizado:
 
 ```bash
-├── ... # arquivos principais (Program.cs / classes de execução)
-├── Models/ # classes que representam entidades, por exemplo Veiculo, Estacionamento etc.
-├── RegrasDeNegócio/ # lógica de cálculo de valor, validações etc.
-├── Utils/ # utilitários diversos (por exemplo para validar placa)
-├── projetoEstacionamento/ # pasta do projeto .csproj
-├── .gitignore
-└── README.md
+├── Data/ # Camada de acesso a dados / persistência
+├── Models/ # Classes de modelo (ex.: Veículo, Estacionamento)
+├── Services/ # Regras de negócio e lógica da aplicação
+├── Utils/ # Funções utilitárias (ex.: validação de placa)
+├── Program.cs # Ponto de entrada da aplicação
+├── projetoEstacionamento.csproj # Arquivo de configuração do projeto .NET
+└── projetoEstacionamento.sln # Arquivo de solução para Visual Studio
 ```
 
 ---
