@@ -42,9 +42,9 @@ O projeto é uma prática para exercitar lógica de programação, manipulação
 
 ## 🛠 Tecnologias Utilizadas
 
-- **C#** :contentReference[oaicite:1]{index=1}  
-- Estrutura de projeto .NET 9.0  
-- Ambiente de desenvolvimento: VS Code   
+- **C#** 
+- **Estrutura de projeto** .NET 9.0  
+- **Ambiente de desenvolvimento:** VS Code   
 
 ---
 
